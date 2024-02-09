@@ -72,7 +72,7 @@ p {
 }
 
 .works-item {
-  width: calc(33.33% - 10px);
+  width: calc(20% - 10px);
   margin-bottom: 20px;
   box-sizing: border-box;
   background-color: rgb(200, 231, 193);
@@ -84,6 +84,7 @@ p {
   display: flex; 
   align-items: center;
   justify-content: center;
+  overflow: hidden; 
 }
 
 .works-item img {
