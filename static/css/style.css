@@ -12,7 +12,19 @@ p {
       background-repeat: no-repeat;
       background-size: cover;
       position: relative;
-      
+
+  }
+
+  @keyframes changeBackground {
+    0% {
+      background-image: url('../img/background1.png');
+    }
+    50% {
+      background-image: url('../img/background2.png');
+    }
+    100% {
+      background-image: url('../img/background3.png');
+    }
   }
   
   .container {
