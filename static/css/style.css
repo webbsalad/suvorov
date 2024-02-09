@@ -68,17 +68,18 @@ p {
 .works-container {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row; 
   justify-content: space-between;
 }
 
 .works-item {
-  width: calc(20% - 10px);
+  width: calc(33.33% - 10px);
   margin-bottom: 20px;
   box-sizing: border-box;
   background-color: rgb(200, 231, 193);
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6 15px rgba(0, 0, 0, 0.1);
   text-align: center; 
   text-decoration: none; 
   display: flex; 
