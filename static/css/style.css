@@ -89,6 +89,7 @@ p {
   box-sizing: border-box;
   background-color: rgb(200, 231, 193);
   background-image: url("../img/doc.png");
+  background-size: cover; 
   padding: 40px;
   border-radius: 10px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
@@ -100,6 +101,7 @@ p {
   overflow: hidden;
   position: relative; 
 }
+
 
 .works-item:hover{
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
