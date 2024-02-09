@@ -64,6 +64,18 @@ p {
     max-height: 100px; 
     overflow-y: auto; 
 }
+
+.works-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.works-item {
+  width: calc(33.33% - 10px); 
+  margin-bottom: 20px; 
+  box-sizing: border-box; 
+}
   
   
   @keyframes spin {
@@ -86,4 +98,16 @@ p {
       .card {
           max-width: 1000px;
       }
+  }
+
+  @media screen and (max-width: 768px) {
+    .works-item {
+      width: calc(50% - 10px);
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .works-item {
+      width: calc(100% - 10px);
+    }
   }
