@@ -96,12 +96,15 @@ p {
   text-align: center;
   text-decoration: none;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column; 
+  justify-content: flex-end; 
   overflow: hidden;
   position: relative; 
 }
 
+.content {
+  color: rgb(0, 0, 0);  /
+}
 
 .works-item:hover{
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
