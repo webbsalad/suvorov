@@ -87,7 +87,7 @@ p {
   width: calc(30% - 40px);
   margin: 20px;
   box-sizing: border-box;
-  background-color: rgb(200, 231, 193);
+  background-color: rgb(211, 228, 207);
   background-image: url("../img/doc.png");
   background-size: cover; 
   padding: 40px;
