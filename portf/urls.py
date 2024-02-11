@@ -4,7 +4,8 @@ from .views import *
 
 urlpatterns = [
     path('', exchange),
-    path('prog', prog)
+    path('prog', prog),
+    path('explanation', explanation)
 
 
 ]
