@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-13 16:22+0300\n"
+"POT-Creation-Date: 2024-02-13 16:48+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,24 +20,32 @@ msgstr ""
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: .\portf\templates\index.html:6
+#: .\portf\templates\index.html:7
 msgid "Суворов Роман"
 msgstr ""
 
-#: .\portf\templates\index.html:7
+#: .\portf\templates\index.html:8
 msgid "Студент РГПУ им. Герцена, ИИТТО, ИВТ 2 курс"
 msgstr ""
 
-#: .\portf\templates\index.html:8
+#: .\portf\templates\index.html:9
 msgid ""
 "Данное портфолио создано студентом РГПУ имени Герцена с целью размещения на "
 "нем информации о выполненных работах"
 msgstr ""
 
-#: .\portf\templates\index.html:10
+#: .\portf\templates\index.html:11
 msgid "Ссылка на профили replit с выполненными работами:"
 msgstr ""
 
-#: .\portf\templates\index.html:12
+#: .\portf\templates\index.html:13
 msgid "Пояснение"
+msgstr ""
+
+#: .\portf\templates\index.html:17
+msgid "ПРОГ4"
+msgstr ""
+
+#: .\portf\templates\index.html:21
+msgid "КП"
 msgstr ""

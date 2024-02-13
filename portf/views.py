@@ -5,6 +5,8 @@ from django.shortcuts import redirect
 from django.utils.translation import activate
 
 # python manage.py collectstatic
+# msgfmt -o django.mo django.po
+# django-admin makemessages -l ru
 def exchange(reqests):
     context = {
         'intest': 'intest'

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-13 16:22+0300\n"
+"POT-Creation-Date: 2024-02-13 16:48+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,22 +18,36 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\portf\templates\index.html:6
+#: .\portf\templates\index.html:7
 msgid "Суворов Роман"
 msgstr "Suvorov Roman"
 
-#: .\portf\templates\index.html:7
-msgid "Студент РГПУ им. Герцена, ИИТТО, ИВТ 2 курс"
-msgstr "Student of the Russian State Pedagogical University named after. Herzen, IITTO, IVT 2nd year"
-
 #: .\portf\templates\index.html:8
-msgid "Данное портфолио создано студентом РГПУ имени Герцена с целью размещения на нем информации о выполненных работах"
-msgstr "This portfolio was created by a student of the Herzen State Pedagogical University for the purpose of placement on information about completed work"
+msgid "Студент РГПУ им. Герцена, ИИТТО, ИВТ 2 курс"
+msgstr ""
+"Student of the Russian State Pedagogical University named after. Herzen, "
+"IITTO, IVT 2nd year"
 
-#: .\portf\templates\index.html:10
+#: .\portf\templates\index.html:9
+msgid ""
+"Данное портфолио создано студентом РГПУ имени Герцена с целью размещения на "
+"нем информации о выполненных работах"
+msgstr ""
+"This portfolio was created by a student of the Herzen State Pedagogical "
+"University for the purpose of placement on information about completed work"
+
+#: .\portf\templates\index.html:11
 msgid "Ссылка на профили replit с выполненными работами:"
 msgstr "Link to replit profiles with completed work:"
 
-#: .\portf\templates\index.html:12
+#: .\portf\templates\index.html:13
 msgid "Пояснение"
 msgstr "Explanation"
+
+#: .\portf\templates\index.html:17
+msgid "ПРОГ4"
+msgstr "PROG4"
+
+#: .\portf\templates\index.html:21
+msgid "КП"
+msgstr "CP"
