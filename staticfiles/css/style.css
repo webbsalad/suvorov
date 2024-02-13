@@ -10,7 +10,7 @@ p {
     position: relative;
     overflow: hidden; 
     animation-name: changeBackground;
-    animation-duration: 30s;
+    animation-duration: 60s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
