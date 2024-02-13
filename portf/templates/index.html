@@ -1,8 +1,12 @@
 {% extends 'base.html' %}
 
 {% load i18n %}
-<a href="{% url 'set_language' %}?language=ru">Русский</a> 
-<a href="{% url 'set_language' %}?language=en">English</a>
+<a href="{% url 'set_language' %}?language=ru">
+    <button class="btn btn-primary">Русский</button>
+</a> 
+<a href="{% url 'set_language' %}?language=en">
+    <button class="btn btn-primary">English</button>
+</a>
 {% block content %}
     <div class="card-header text-center">
         <h1> Суворов Роман </h1>
