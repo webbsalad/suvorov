@@ -1,17 +1,18 @@
 {% extends 'base.html' %}
 
+{% load i18n %}
 {% block content %}
     <a href="/">
-        <button class="btn btn-primary">Назад</button>
+        <button class="btn btn-primary">{% trans "Назад" %}</button>
     </a>
     <div class="card-header text-center">
-        <h3> Создание Сайта </h3>
+        <h3> {% trans "Создание Сайта" %} </h3>
     </div>
     <div class="">
-        1) был создан проект с использованием django-admin <br>
-        2) далее был настроен Django в файлах settings и связан с приложением Django <br>
-        3) проект был связан с репозиторием GitHub для более удобного коммита  <br>
-        4) далее был создан файл vercel.json для связи сайта с Vercel <br>
+        {% trans "1) был создан проект с использованием django-admin " %}<br>
+        {% trans "2) далее был настроен Django в файлах settings и связан с приложением Django " %}<br>
+        {% trans "3) проект был связан с репозиторием GitHub для более удобного коммита" %}  <br>
+        {% trans "4) далее был создан файл vercel.json для связи сайта с Vercel" %} <br>
            Vercel.json:
         <pre>
             {
@@ -28,7 +29,7 @@
                 ]
             }
             </pre><br>
-        5) GitHub был подключен к Vercel и практически автоматически задеплоен<br><br>
+        {% trans "5) GitHub был подключен к Vercel и практически автоматически задеплоен" %}<br><br>
     </div>
                 
 {% endblock %}
