@@ -19,8 +19,8 @@ def explanation(reqests):
 def prog(reqests):
     return render(reqests, 'prog.html')
 
-def kp(reqests):
-    return render(reqests, 'kp.html')
+def cw(reqests):
+    return render(reqests, 'cw.html')
 
 def set_language(request):
     if 'language' in request.GET:

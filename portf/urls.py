@@ -6,7 +6,7 @@ urlpatterns = [
     path('', exchange),
     path('prog', prog),
     path('explanation', explanation),
-    path('kp', kp),
+    path('cw', cw),
     path('set_language/', set_language, name='set_language'),
 
 
