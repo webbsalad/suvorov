@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.utils.translation import gettext as _
+from django.shortcuts import redirect
+from django.utils.translation import activate
 
 # python manage.py collectstatic
 def exchange(reqests):
@@ -17,3 +19,9 @@ def prog(reqests):
 
 def kp(reqests):
     return render(reqests, 'kp.html')
+
+def set_language(request):
+    if 'language' in request.GET:
+        language = request.GET['language']
+        activate(language)
+    return redirect(request.META.get('HTTP_REFERER', '/'))

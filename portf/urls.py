@@ -7,7 +7,7 @@ urlpatterns = [
     path('prog', prog),
     path('explanation', explanation),
     path('kp', kp),
-    path('set_language/', RedirectView.as_view(url='/a'), name='set_language'),
+    path('set_language/', set_language, name='set_language'),
 
 
 ]
