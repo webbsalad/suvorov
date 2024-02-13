@@ -108,8 +108,8 @@ body {
 }
 
 .works-item {
-  width: calc(30% - 40px);
-  height: calc(30% - 40px);
+  width: 30%;
+  height: 30%;
   margin: 20px;
   box-sizing: border-box;
   background-color: rgb(211, 228, 207);
