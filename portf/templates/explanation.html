@@ -12,6 +12,22 @@
         2) далее был настроен Django в файлах settings и связан с приложением Django <br>
         3) проект был связан с репозиторием GitHub для более удобного коммита  <br>
         4) далее был создан файл vercel.json для связи сайта с Vercel <br>
+           Vercel.json:
+        <pre>
+            {
+                "builds": [{
+                    "src": "suvorov/wsgi.py",
+                    "use": "@vercel/python",
+                    "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
+                }],
+                "routes": [
+                    {
+                        "src": "/(.*)",
+                        "dest": "suvorov/wsgi.py"
+                    }
+                ]
+            }
+            </pre><br>
         5) GitHub был подключен к Vercel и практически автоматически задеплоен<br><br>
     </div>            
 {% endblock %}

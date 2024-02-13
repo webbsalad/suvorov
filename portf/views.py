@@ -12,4 +12,4 @@ def explanation(reqests):
     return render(reqests, 'explanation.html')
 
 def prog(reqests):
-    return render(reqests, 'stack.html')
+    return render(reqests, 'prog.html')
