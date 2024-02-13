@@ -87,7 +87,6 @@ msgstr "CW"
 
 #: .\portf\templates\kp.html:9
 #, fuzzy
-#| msgid "КП"
 msgid "КП "
 msgstr "CW"
 
