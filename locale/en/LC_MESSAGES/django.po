@@ -50,4 +50,4 @@ msgstr "PROG4"
 
 #: .\portf\templates\index.html:21
 msgid "КП"
-msgstr "CP"
+msgstr "CW"
