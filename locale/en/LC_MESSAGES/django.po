@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-13 17:12+0300\n"
+"POT-Creation-Date: 2024-02-13 17:43+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,10 +18,26 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\portf\templates\explanation.html:6 .\portf\templates\kp.html:6
+#: .\portf\templates\cw.html:6 .\portf\templates\explanation.html:6
 #: .\portf\templates\prog.html:6
 msgid "Назад"
 msgstr "Back"
+
+#: .\portf\templates\cw.html:9
+#, fuzzy
+#| msgid "КП"
+msgid "КП "
+msgstr "CW"
+
+#: .\portf\templates\cw.html:14 .\portf\templates\prog.html:14
+#: .\portf\templates\prog.html:18 .\portf\templates\prog.html:23
+#: .\portf\templates\prog.html:27
+msgid "ЛР1"
+msgstr "LR1"
+
+#: .\portf\templates\cw.html:18
+msgid "ЛР2"
+msgstr "LR2"
 
 #: .\portf\templates\explanation.html:9
 msgid "Создание Сайта"
@@ -84,18 +100,3 @@ msgstr "PROG4"
 #: .\portf\templates\index.html:21
 msgid "КП"
 msgstr "CW"
-
-#: .\portf\templates\kp.html:9
-#, fuzzy
-msgid "КП "
-msgstr "CW"
-
-#: .\portf\templates\kp.html:14 .\portf\templates\prog.html:14
-#: .\portf\templates\prog.html:18 .\portf\templates\prog.html:23
-#: .\portf\templates\prog.html:27
-msgid "ЛР1"
-msgstr "LR1"
-
-#: .\portf\templates\kp.html:18
-msgid "ЛР2"
-msgstr "LR2"
