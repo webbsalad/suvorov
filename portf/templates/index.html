@@ -2,6 +2,12 @@
 
 {% load i18n %}
 {% block content %}
+    <a href="{% url 'set_language' %}?language=ru">
+        <button class="btn btn-primary">Русский</button>
+    </a> 
+    <a href="{% url 'set_language' %}?language=en">
+        <button class="btn btn-primary">English</button>
+    </a>
     <div class="card-header text-center">
         <h1> {% trans "Суворов Роман" %} </h1>
         <p>{% trans "Студент РГПУ им. Герцена, ИИТТО, ИВТ 2 курс" %}</p>
