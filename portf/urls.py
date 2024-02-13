@@ -5,7 +5,8 @@ from .views import *
 urlpatterns = [
     path('', exchange),
     path('prog', prog),
-    path('explanation', explanation)
+    path('explanation', explanation),
+    path('kp', kp),
 
 
 ]
