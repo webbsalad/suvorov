@@ -125,8 +125,6 @@ body {
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
   text-decoration: none;
-  display: flex;
-  flex-direction: column; 
   justify-content: flex-end; 
   overflow: hidden;
   position: relative; 
