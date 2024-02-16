@@ -12,10 +12,10 @@
 </head>
     <body>
         <a href="{% url 'set_language' %}?language=ru">
-            <button class="btn btn-primary" onclick="highlightButton(this)">Русский</button>
+            <button id="btn_ru" class="btn btn-primary" onclick="highlightButton(this)">Русский</button>
         </a> 
         <a href="{% url 'set_language' %}?language=en">
-            <button class="btn btn-primary" onclick="highlightButton(this)">English</button>
+            <button id="btn_en" class="btn btn-primary" onclick="highlightButton(this)">English</button>
         </a>
         <div class="container">
             <div class="row">
