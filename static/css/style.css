@@ -173,14 +173,3 @@ body {
       }
   }
 
-  @media screen and (max-width: 768px) {
-    .works-item {
-      width: calc(50% - 10px);
-    }
-  }
-  
-  @media screen and (max-width: 480px) {
-    .works-item {
-      width: calc(100% - 10px);
-    }
-  }
