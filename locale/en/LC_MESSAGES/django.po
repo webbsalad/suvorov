@@ -24,16 +24,12 @@ msgid "Назад"
 msgstr "Back"
 
 #: .\portf\templates\cw.html:9
-#, fuzzy
-#| msgid "КП"
 msgid "КП "
 msgstr "CW"
 
 #: .\portf\templates\cw.html:14 .\portf\templates\cw.html:18
 #: .\portf\templates\prog.html:14 .\portf\templates\prog.html:18
 #: .\portf\templates\prog.html:23 .\portf\templates\prog.html:27
-#, fuzzy
-#| msgid "ЛР1"
 msgid "ЛР"
 msgstr "LW"
 
