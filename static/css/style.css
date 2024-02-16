@@ -106,10 +106,9 @@ body {
 }
 
 .works-container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row; 
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20vw, 40px));
+  gap: 20px;
 }
 
 .works-item {
