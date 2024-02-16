@@ -68,6 +68,11 @@ body {
   .submit-btn {
       text-align: center;
   }
+
+  .btn-primary.active {
+    background-color: #007bff; 
+    color: #fff; 
+}
   
   .card-body {
       margin: auto;
