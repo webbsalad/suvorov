@@ -31,10 +31,19 @@
 
 
 <script>
-    function highlightButton(btn) {
+    function changeLanguage(language) {
+        localStorage.setItem('selectedLanguage', language);
+
         document.querySelectorAll('.btn-primary').forEach(function(button) {
             button.classList.remove('active');
         });
-        btn.classList.add('active');
+        document.getElementById('btn_' + language).classList.add('active');
     }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var selectedLanguage = localStorage.getItem('selectedLanguage');
+        if (selectedLanguage) {
+            changeLanguage(selectedLanguage);
+        }
+    });
 </script>
