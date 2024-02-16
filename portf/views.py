@@ -22,6 +22,9 @@ def prog(reqests):
 def cw(reqests):
     return render(reqests, 'cw.html')
 
+def db(reqests):
+    return render(reqests, 'db.html')
+
 def set_language(request):
     if 'language' in request.GET:
         language = request.GET['language']

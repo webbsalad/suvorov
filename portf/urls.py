@@ -7,6 +7,7 @@ urlpatterns = [
     path('prog', prog),
     path('explanation', explanation),
     path('cw', cw),
+    path('db', db),
     path('set_language/', set_language, name='set_language'),
 
 
