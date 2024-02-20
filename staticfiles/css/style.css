@@ -137,6 +137,7 @@ body {
 }
 
 .photo img {
+  padding: 20px;
   width: 100%; 
   height: auto; 
   max-width: 100%; 
@@ -144,6 +145,7 @@ body {
 }
 
 .content-left {
+  padding: 20px;
   width: 70%; 
   padding: 20px; 
   float: right;
