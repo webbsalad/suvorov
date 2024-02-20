@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-16 17:39+0300\n"
+"POT-Creation-Date: 2024-02-20 12:20+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,37 +38,17 @@ msgstr "LW"
 msgid "БД"
 msgstr "DB"
 
-#: .\portf\templates\explanation.html:9
-msgid "Создание Сайта"
-msgstr "Website creation"
-
-#: .\portf\templates\explanation.html:12
-msgid "1) был создан проект с использованием django-admin "
-msgstr "1) a project was created using django-admin"
-
-#: .\portf\templates\explanation.html:13
-msgid ""
-"2) далее был настроен Django в файлах settings и связан с приложением Django "
-msgstr ""
-"2) Django was then configured in the settings files and associated with the "
-"Django application"
-
-#: .\portf\templates\explanation.html:14
-msgid "3) проект был связан с репозиторием GitHub для более удобного коммита"
-msgstr "3) the project was linked to a GitHub repository for easier committing"
-
-#: .\portf\templates\explanation.html:15
-msgid "4) далее был создан файл vercel.json для связи сайта с Vercel"
-msgstr ""
-"4) then the vercel.json file was created to connect the site with Vercel"
-
-#: .\portf\templates\explanation.html:32
-msgid "5) GitHub был подключен к Vercel и практически автоматически задеплоен"
-msgstr "5) GitHub was connected to Vercel and deployed almost automatically"
-
-#: .\portf\templates\index.html:7
+#: .\portf\templates\explanation.html:9 .\portf\templates\index.html:7
 msgid "Суворов Роман"
 msgstr "Suvorov Roman"
+
+#: .\portf\templates\explanation.html:12
+msgid ""
+"Приветствую! Я студент РГПУ имени Герцена обучаюсь на направлении "
+"Информатика вычислительная техника Технологии разработки програмного "
+"обеспечения на данном сайте собраны мои работы по направлениям: "
+"програмирование, базы данных, компьютерный практикум"
+msgstr "Greetings! I am a student of the Herzen State Pedagogical University studying in the field of Informatics, Computer Science, Software Development Technologies, this site contains my work in the following areas: programming, databases, computer workshop"
 
 #: .\portf\templates\index.html:8
 msgid "Студент РГПУ им. Герцена, ИИТТО, ИВТ 2 курс"
@@ -89,8 +69,8 @@ msgid "Ссылки:"
 msgstr "Links"
 
 #: .\portf\templates\index.html:13
-msgid "Пояснение"
-msgstr "Explanation"
+msgid "Обо мне"
+msgstr "About"
 
 #: .\portf\templates\index.html:17 .\portf\templates\prog.html:9
 msgid "ПРОГ4"
@@ -99,3 +79,6 @@ msgstr "PROG4"
 #: .\portf\templates\index.html:25
 msgid "КП"
 msgstr "CW"
+
+
+

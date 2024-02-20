@@ -6,7 +6,7 @@ from django.utils.translation import activate
 
 # python manage.py collectstatic
 # msgfmt -o django.mo django.po
-# django-admin makemessages -l ru
+# django-admin makemessages -l en
 def exchange(reqests):
     context = {
         'intest': 'intest'
