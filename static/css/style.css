@@ -15,10 +15,6 @@ body {
   animation-iteration-count: infinite;
 }
 
-a {
-  padding: 20px;
-}
-
 @keyframes changeBackground {
   0% {
       background-image: url('../img/background1.png');
