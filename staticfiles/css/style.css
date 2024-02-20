@@ -66,11 +66,13 @@ body {
   
   
   .submit-btn {
-      text-align: center;
+     text-align: center;
   }
+
   .btn-primary{
-    padding: 10px;
+    padding: 20px;
   }
+
   .btn-primary.active {
     background-color: #007bff; 
     color: #fff; 
@@ -144,7 +146,7 @@ body {
   height: auto; 
   max-width: 100%; 
   display: block;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .content-left {
