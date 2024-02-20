@@ -131,20 +131,22 @@ body {
   color: rgb(0, 0, 0);  /
 }
 .photo {
-  width: 30%; /* Фото занимает максимум 30% экрана */
-  max-width: 30%; /* Максимальная ширина фото 30% */
+  width: 30%;
+  max-width: 30%;
+  float: left;
 }
 
 .photo img {
-  width: 100%; /* Фото занимает всю доступную ширину родительского элемента */
-  height: auto; /* Поддерживает соотношение сторон */
-  max-width: 100%; /* Максимальная ширина фото 100% */
-  display: block; /* Убирает пустые пространства под изображением */
+  width: 100%; 
+  height: auto; 
+  max-width: 100%; 
+  display: block;
 }
 
 .content-left {
-  width: 70%; /* Контент занимает оставшиеся 70% экрана */
-  padding: 20px; /* Добавим немного отступа для красоты */
+  width: 70%; 
+  padding: 20px; 
+  float: right;
 }
 
 .works-item:hover{
