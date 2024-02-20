@@ -118,13 +118,29 @@ body {
   background-color: rgb(211, 228, 207);
   background-image: url("../img/doc.png");
   background-size: cover; 
-  padding: 40px;
+  padding: 20px;
   border-radius: 10px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
   text-decoration: none;
   overflow: hidden;
   position: relative; 
+}
+
+.works-item:hover{
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.works-item .text-container {
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  width: 100%;
+}
+
+.works-item img {
+  max-width: 100%; 
 }
 
 .content {
@@ -151,21 +167,6 @@ body {
   float: right;
 }
 
-.works-item:hover{
-  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
-  transform: translateY(-5px);
-}
-
-.works-item .text-container {
-  position: absolute;
-  bottom: -40px;
-  left: 0;
-  width: 100%;
-}
-
-.works-item img {
-  max-width: 100%; 
-}
   
   
   @keyframes spin {
