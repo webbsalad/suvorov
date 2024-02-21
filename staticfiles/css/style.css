@@ -108,28 +108,29 @@ body {
 .works-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px; /* Расстояние между элементами */
-  justify-content: center; /* Центрирование элементов */
-  padding: 20px; /* Отступ внутри контейнера */
+  gap: 20px; 
+  justify-content: center;
+  padding: 20px; 
 }
 
 .works-item {
-  display: block; /* Сделать элементы блочными, чтобы они занимали всю доступную ширину */
-  width: 200px; /* Ширина каждого элемента */
-  height: 150px; /* Высота каждого элемента */
-  background-image: url('/static/img/doc.png'); /* Путь к вашему изображению */
-  background-size: cover; /* Покрыть весь элемент изображением */
-  background-position: center; /* Центрировать изображение */
-  text-align: center; /* Центрирование текста внутри элемента */
-  color: white; /* Цвет текста */
-  text-decoration: none; /* Убрать подчеркивание у ссылок */
+  display: block;
+  width: min(15vp, 200px); 
+  height: min(10vp, 150px);
+  background-image: url('your-image-path.jpg');
+  background-size: contain; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  text-align: center;
+  color: white;
+  text-decoration: none;
   display: flex;
-  align-items: center; /* Центрирование содержимого по вертикали */
-  justify-content: center; /* Центрирование содержимого по горизонтали */
+  align-items: center;
+  justify-content: center;
 }
 
 .works-item h5 {
-  margin: 0; /* Убрать внешние отступы у заголовков */
+  margin: 0; 
 }
 
 
