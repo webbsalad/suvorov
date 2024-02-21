@@ -107,7 +107,7 @@ body {
 
 .works-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(20vw, 40px));
+  grid-template-columns: repeat(auto-fill, minmax(10vw, 20px));
   gap: 20px;
 }
 
