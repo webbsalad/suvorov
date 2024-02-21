@@ -115,9 +115,9 @@ body {
 
 .works-item {
   display: block;
-  width: min(15vp, 200px); 
-  height: min(10vp, 150px);
-  background-image: url('your-image-path.jpg');
+  width: min(15vh, 200px); 
+  height: min(10vh, 150px);
+  background-image: url('/static/img/doc.png');
   background-size: contain; 
   background-position: center;
   background-repeat: no-repeat; 
