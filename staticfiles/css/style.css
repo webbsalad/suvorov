@@ -115,13 +115,13 @@ body {
 .works-item {
   width: max(7vw, 40px);
   height: max(7vw, 40px);
-  margin: 20px;
+  margin: 10px;
   background-color: rgb(211, 228, 207);
   background-image: url("../img/doc.png");
   background-size: cover; 
   padding: 10px;
   border-radius: 10px;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.363);
   text-align: center;
   text-decoration: none;
   overflow: hidden;
