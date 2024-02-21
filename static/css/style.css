@@ -106,33 +106,43 @@ body {
 }
 
 .works-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px; 
-  justify-content: center;
-  padding: 20px; 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10vw, 20px));
+  gap: 20px;
 }
+
 
 .works-item {
-  display: block;
-  width: min(15vh, 200px); 
-  height: min(10vh, 150px);
-  background-image: url('/static/img/doc.png');
-  background-size: contain; 
-  background-position: center;
-  background-repeat: no-repeat; 
+  width: max(15vw, 100px);
+  height: max(15vw, 100px);
+  margin: 10px;
+  background-color: rgb(211, 228, 207);
+  background-image: url("../img/doc.png");
+  background-size: cover; 
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.363);
   text-align: center;
-  color: white;
   text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  overflow: hidden;
+  position: relative; 
 }
 
-.works-item h5 {
-  margin: 0; 
+.works-item:hover{
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
 }
 
+.works-item .text-container {
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  width: 100%;
+}
+
+.works-item img {
+  max-width: 100%; 
+}
 
 .content {
   color: rgb(0, 0, 0);  /
