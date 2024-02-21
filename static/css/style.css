@@ -113,8 +113,8 @@ body {
 
 
 .works-item {
-  width: max(15vw, 100px);
-  height: max(15vw, 100px);
+  width: max(15vw, 70px);
+  height: max(15vw, 70px);
   margin: 10px;
   background-color: rgb(211, 228, 207);
   background-image: url("../img/doc.png");
