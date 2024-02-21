@@ -111,14 +111,15 @@ body {
   gap: 20px;
 }
 
+
 .works-item {
-  width: max(10vw, 40px);
-  height: max(10vw, 40px);
+  width: max(7vw, 40px);
+  height: max(7vw, 40px);
   margin: 20px;
   background-color: rgb(211, 228, 207);
   background-image: url("../img/doc.png");
   background-size: cover; 
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
