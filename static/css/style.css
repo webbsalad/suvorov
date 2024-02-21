@@ -106,43 +106,32 @@ body {
 }
 
 .works-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(10vw, 20px));
-  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Расстояние между элементами */
+  justify-content: center; /* Центрирование элементов */
+  padding: 20px; /* Отступ внутри контейнера */
 }
-
 
 .works-item {
-  width: max(7vw, 40px);
-  height: max(7vw, 40px);
-  margin: 10px;
-  background-color: rgb(211, 228, 207);
-  background-image: url("../img/doc.png");
-  background-size: cover; 
-  padding: 10px;
-  border-radius: 10px;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.363);
-  text-align: center;
-  text-decoration: none;
-  overflow: hidden;
-  position: relative; 
+  display: block; /* Сделать элементы блочными, чтобы они занимали всю доступную ширину */
+  width: 200px; /* Ширина каждого элемента */
+  height: 150px; /* Высота каждого элемента */
+  background-image: url('/static/img/doc.png'); /* Путь к вашему изображению */
+  background-size: cover; /* Покрыть весь элемент изображением */
+  background-position: center; /* Центрировать изображение */
+  text-align: center; /* Центрирование текста внутри элемента */
+  color: white; /* Цвет текста */
+  text-decoration: none; /* Убрать подчеркивание у ссылок */
+  display: flex;
+  align-items: center; /* Центрирование содержимого по вертикали */
+  justify-content: center; /* Центрирование содержимого по горизонтали */
 }
 
-.works-item:hover{
-  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
-  transform: translateY(-5px);
+.works-item h5 {
+  margin: 0; /* Убрать внешние отступы у заголовков */
 }
 
-.works-item .text-container {
-  position: absolute;
-  bottom: -40px;
-  left: 0;
-  width: 100%;
-}
-
-.works-item img {
-  max-width: 100%; 
-}
 
 .content {
   color: rgb(0, 0, 0);  /
